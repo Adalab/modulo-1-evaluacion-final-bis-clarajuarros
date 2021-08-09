@@ -11,13 +11,13 @@
   border: 1px solid #c5c5c5;
   margin-bottom: -50px;
 
-  @media all and (min-height: 768px) {
+  @media all and (min-width: 768px) {
     height: 100px;
     grid-template-rows: 100px;
     grid-template-columns: 50% 50%;
     width: 766px;
   }
-  @media all and (min-height: 1024px) {
+  @media all and (min-width: 1024px) {
     width: 99.9%;
   }
 }
@@ -26,7 +26,7 @@
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
-  @media all and (min-height: 768px) {
+  @media all and (min-width: 768px) {
     justify-content: flex-start;
   }
 }
@@ -35,7 +35,7 @@
   height: 60px;
   margin-top: 10px;
   box-align: center;
-  @media all and (min-height: 768px) {
+  @media all and (min-width: 768px) {
     width: 155px;
     height: 60px;
     margin-left: 30px;
@@ -47,13 +47,14 @@
   grid-template-columns: 42px 82px;
   list-style: none;
   grid-gap: 20.5px;
-  @media all and (min-height: 768px) {
+  @media all and (min-width: 768px) {
     width: 350px;
     margin-top: 41px;
     display: flex;
     justify-content: flex-end;
   }
-  @media all and (min-height: 1024px) {
+  @media all and (min-width: 1024px) {
+    width: 490px;
   }
 }
 .menu {
@@ -65,7 +66,7 @@
   list-style: none;
   text-transform: uppercase;
   margin-left: 88px;
-  @media all and (min-height: 768px) {
+  @media all and (min-width: 768px) {
     margin-left: 33px;
   }
 }
