@@ -1,0 +1,14 @@
+.footer {
+  height: 90px;
+  width: 100%;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+}
+.copy {
+  font-size: 16px;
+  color: #676a6d;
+  font-family: $main-font;
+  text-transform: initial;
+  padding: 34px 0px 24px 0px;
+}
