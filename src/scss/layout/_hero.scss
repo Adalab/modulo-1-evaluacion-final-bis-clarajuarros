@@ -4,8 +4,9 @@
   background-image: url(../images/background.jpg);
   background-size: 125% 100%;
   background-repeat: no-repeat;
+  padding-top: 110px;
+
   @media all and (min-width: 768px) {
-    margin-top: 50px;
     height: 834px;
   }
 }
